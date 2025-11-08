@@ -1,0 +1,3966 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-project</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-7.0.0-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+   <div class=" sticky top-0 z-90!">
+
+
+
+
+     <div class="banner  hidden xl:block z-50!">
+      <a href="#" class="flex items-center"
+        ><img
+          class="w-full"
+          src="./public/img/1/banner_TopGifDesktop_0e4H1u_646140a6-0800-456c-bd4a-d3311c5fa3e5.gif"
+          alt=""
+      /></a>
+    </div>
+    <div class="banner  xl:hidden z-50!">
+      <a href="#" class="flex items-center"
+        ><img
+          class="w-full" style="object-fit: cover;"
+          src="./public/img/1/banner_TopGifMobile_Bth3zZ_182ad46a-094e-4947-9c7e-1a1ed7b3207f.gif"
+          alt=""
+      /></a>
+    </div>
+    <div
+      class="a1 xl:px-[24px] xl:pt-[16px] flex justify-between px-[16px] py-[8px]  bg-white z-50! w-full"
+    >
+      <div class="ls flex xl:gap-[36px] xl:w-2/3">
+        <a href="#" class="flex items-center"
+          ><img
+            src="./public/img/static_logo_techno_new.svg"
+            alt=""
+            class="xl:w-[110px] xl:h-[42px] w-[65px] h-[25px]"
+        /></a>
+        <div
+          class="xl:bg-[#f0f0f0] xl:px-[24px] xl:rounded-[4px] xl:w-full xl:flex xl:items-center hidden xl:h-[56px]"
+        >
+          <i
+            class="fa-solid fa-magnifying-glass xl:text-[#aaabac] xl:text-[20px] hidden xl:inline"
+          ></i>
+          <input
+            type="text"
+            name=""
+            id=""
+            class="xl:bg-[#f0f0f0] xl:px-[24px] hidden xl:block xl:w-full xl:focus:outline-0 xl:rounded-[4px] xl:text-[15px]"
+            placeholder=" محصول، برند یا دسته مورد نظرتان را جستجو کنید"
+          />
+        </div>
+      </div>
+
+      <div class="flex items-center gap-[8px] xl:gap-0">
+        <a href="#" class="xl:hidden">
+          <i class="fa-solid fa-magnifying-glass text-[#aaabac]"></i>
+        </a>
+        <a href="#" class="xl:hidden"
+          ><img src="./public/img/1/Sparkle.svg" alt=""
+        /></a>
+        <a
+          href="#"
+          class="xl:text-[16px] xl:pr-[24px] xl:py-[8px] xl:pl-[21px] xl:rounded-[8px] xl:border xl:border-[#223c78] hidden xl:flex xl:items-center xl:ml-[12px]"
+        >
+          <span class="xl:border-l-[0.7px] xl:pl-[18px] hidden xl:inline"
+            >ورود</span
+          >
+          <span class="xl:pr-[22px] hidden xl:inline">ثبت نام</span>
+        </a>
+        <a
+          href="#"
+          class="xl:p-[8px] xl:border-[#d7dee0] xl:border-[0.7px] xl:rounded-[8px] xl:mr-[12px] hidden xl:inline"
+        >
+          <i
+            class="fa-solid fa-basket-shopping xl:text-[18px] hidden xl:inline"
+          ></i>
+        </a>
+      </div>
+    </div>
+    
+   </div>
+
+    <nav
+      class="hidden xl:block px-[24px] mb-[9px] max-w-[1815px] mx-auto top-[103px] z-50"
+    >
+      <ul class="flex gap-[16px]">
+        <li class="">
+          <a
+            href="#"
+            class="px-[12px] py-[16px] flex gap-[10px] items-center hover:bg-sky-100/50 hover:rounded-[6px]"
+          >
+            <i class="fa-solid fa-bars text-[#666666]"></i>
+            <span class="text-[14px] text-[#666666] font-medium"
+              >دسته بندی محصولات</span
+            >
+          </a>
+        </li>
+        <li class="">
+          <a href="#" class="px-[12px] py-[16px] flex gap-[10px] items-center">
+            <i class="fa-solid fa-percent text-[#666666]"></i>
+            <span class="text-[14px] text-[#666666] font-medium">
+              تونل زمان</span
+            >
+          </a>
+        </li>
+        <li class="">
+          <a href="#" class="px-[12px] py-[16px] flex gap-[10px] items-center">
+            <i class="fa-solid fa-basket-shopping text-[#666666]"></i>
+            <span class="text-[14px] text-[#666666] font-medium">
+              خرید سازمانی</span
+            >
+          </a>
+        </li>
+        <li>
+          <a href="#" class="px-[12px] py-[16px] flex gap-[10px] items-center">
+            <i class="fa-solid fa-gift text-[#666666]"></i>
+            <span class="text-[14px] text-[#666666] font-medium"
+              >کارت هدیه
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="px-[12px] py-[16px] flex gap-[10px] items-center">
+            <i class="fa-solid fa-credit-card text-[#666666]"></i>
+            <span class="text-[14px] text-[#666666] font-medium">
+              خرید اقساطی</span
+            >
+          </a>
+        </li>
+        <li>
+          <a href="#" class="px-[12px] py-[16px] flex gap-[10px] items-center">
+            <i class="fa-solid fa-coins text-[#666666]"></i>
+            <span class="text-[14px] text-[#666666] font-medium">
+              خرید طلای دیجیتال</span
+            >
+            <span
+              class="px-[8px] bg-[#ffd6e8] text-[#9f1853] rounded-[25px] text-[12px] leading-[18px]"
+              >جدید</span
+            >
+          </a>
+        </li>
+        <li>
+          <a href="#" class="px-[12px] py-[16px] flex gap-[10px] items-center">
+            <span class="text-[14px] text-[#223c78] font-medium"
+              >فروشنده شو</span
+            >
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="">
+      <div class="swiper mySwiper ">
+        <div class="swiper-wrapper relative">
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img class="hidden! xl:block!" src="./public/img/2/1.gif" alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img class="hidden! xl:block!" src="./public/img/2/2.webp" alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img class="hidden! xl:block!" src="./public/img/2/3.gif" alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img class="hidden! xl:block!" src="./public/img/2/4.gif" alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img class="hidden! xl:block!" src="./public/img/2/5.gif" alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img class="hidden! xl:block!" src="./public/img/2/6.webp" alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img class="hidden! xl:block!" src="./public/img/2/7.webp" alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img class="hidden! xl:block!" src="./public/img/2/8.webp" alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img class="hidden! xl:block!" src="./public/img/2/9.webp" alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img
+                class="hidden! xl:block!"
+                src="./public/img/2/10.webp"
+                alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img
+                class="hidden! xl:block!"
+                src="./public/img/2/11.webp"
+                alt=""
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img
+                src="./public/img/2/mobile/1.gif "
+                class="xl:hidden!"
+                alt="" />
+              <img
+                class="hidden! xl:block!"
+                src="./public/img/2/12.webp"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <div
+          class="swiper-button-next hidden! xl:block!"
+          style="
+            position: absolute;
+            top: 70%;
+            right: 120px;
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            border: 1px grey solid;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[gray] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev hidden! xl:block!"
+          style="
+            position: absolute;
+            top: 70%;
+            right: 50px;
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            border: 1px grey solid;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[gray] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div class="swiper-pagination absolute top-[100%] right-0"></div>
+      </div>
+    </div>
+
+    <div class="xl:px-[32px] xl:py-[52px] py-[32px] max-w-[1600px] mx-auto">
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/1.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semibold lg:text-base lg:font-medium ">سکه طلا</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/2.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">تلویزیون</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/3.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">گوشی موبایل</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/4.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">یخچال فریزر</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/5.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">ماشین ظرفشویی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/6.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">سشوار</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/7.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/8.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/9.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/10.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/11.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/12.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/13.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/14.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/15.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/16.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+          </div>
+               <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/17.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+              
+          </div>
+                    <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/18.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+              
+          </div>           <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/19.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+              
+          </div>           <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/20.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+              
+          </div>           <div class="swiper-slide mt-5 mr-4">
+            <div class="flex items-center gap-3 xl:gap-5 flex-col rounded-full">
+              <a
+                href="#"
+                class="outline-[#18a2df] rounded-full outline-offset-8 outline-2 hover:outline-4 hover:outline-offset-4"
+                ><img
+                  class="xl:h-[112.67px]! xl:w-[112.67px]!"
+                  src="./public/img/3/21.webp"
+                  alt=""
+              /></a>
+              <a href="#" class="text-xs font-semiBold lg:text-base lg:font-medium  ">بخاری برقی</a>
+            </div>
+              
+          </div>       
+        </div>
+         <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+      </div>
+    </div>
+<div class="xl:px-[32px] max-w-[1600px] mx-auto">
+
+<div class="xl:p-[12px] xl:pb-[24px]  xl:border-[0.7px] xl:border-[#ffd7d9] xl:rounded-[20px]">
+<div class="xl:px-[24px] xl:py-[8px] flex content-between bg-[#a2191f] xl:rounded-[8px]  p-[8px]">
+  <h4 class="text-white grow text-sm lg:text-2xl text-[14px]  font-semibold text-right  pr-2">تکنوآف</h4>
+  <a href="#" class="flex items-center">
+    <h4 class="text-xs font-semibold  font-semiBold !text-white lg:text-lg">نمایش همه</h4>
+      <i class="fa-solid fa-chevron-left text-white mr-2 text-[12px]"
+          ></i>
+  </a>
+ 
+
+
+
+
+</div>
+<div class="pt-[16px] pr-[16px] pb-[32px] xl:border-b-0 border-b-2 border-red-200 ">
+  <div class="swiper mySwiper3 ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] border-r-0 pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px]">
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto "></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبایل ریلمی مدل 12 Plus ظرفیت 512 گیگابایت رم 12 گیگابایت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center ">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 24,000,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">12</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">27,000,000</span>
+</div>
+
+      </div>
+
+    
+    </div>
+     <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/2.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> اسپیکر بلوتوثی خانگی هارمن کاردن مدل Aura Studio 3</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 16,329,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">10</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">18,000,000</span>
+</div>
+
+      </div>
+      
+ 
+  </div>
+    <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/3.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">اپل واچ SE Gen2 2024 سایز 40 میلی متری</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 23,179,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">11</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">26,000,000</span>
+</div>
+
+      </div>
+      
+</div>
+  <div class="swiper-slide max-w-[320px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/4.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">مجموعه 30 عددی پیچ گوشتی شارژی ویوارکس مدل VR1210V-22A</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,190,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]"">3</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">2,244,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/5.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> پاوربانک انکر مدل A1287 Essential PD با ظرفیت 20000 میلی آمپر</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;"> 3,580,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">18</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">4,320,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/6.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین لباسشویی 9 کیلویی پاکشوما مدل S9 W</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 35,400,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">24</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">46,000,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/7.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین اصلاح شیائومی مدل X300 UniBlade</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,465,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">21</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">3,100,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/8.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین اصلاح شیائومی مدل X300 UniBlade</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,465,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">21</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">3,100,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/9.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین اصلاح شیائومی مدل X300 UniBlade</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,465,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">21</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">3,100,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین اصلاح شیائومی مدل X300 UniBlade</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,465,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">21</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">3,100,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین اصلاح شیائومی مدل X300 UniBlade</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,465,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">21</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">3,100,000</span>
+</div>
+
+      </div>
+      </div>
+</div>
+
+ <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+<div class="w-full xl:h-15.5 "></div>
+<div class="">
+  <div class="xl:px-[32px]">
+  <div class=" px-[32px]  flex w-full flex-col gap-[14px] lg:flex-row lg:gap-[26px] pb-[32px] pt-[24px] xl:p-0 max-w-[1600px] mx-auto">
+<a href="#" class="xl:w-1/3 w-full"><img src="./public/img/5/1.webp" class="rounded-[18px]" alt=""></a>
+<a href="#" class="xl:w-1/3 w-full"><img src="./public/img/5/2.webp" class="rounded-[18px]" alt=""></a>
+<a href="#" class="xl:w-1/3 w-full"><img src="./public/img/5/3.webp" class="rounded-[18px]" alt=""></a>
+
+</div>
+
+</div>
+</div>
+
+<!-- *************************************************************************** -->
+<div class="w-full xl:h-15.5"></div>
+
+
+
+
+
+
+<div class="xl:px-[32px] max-w-[1600px] mx-auto border border-[#d3d8e4] pt-[24px] pb-[32px] xl:border-0">
+
+<div class="xl:p-[12px] xl:pb-[24px]  xl:border-[0.7px] xl:border-[#c7cfde] xl:rounded-[20px]">
+<div class="xl:px-[24px] xl:py-[8px] flex content-between  xl:rounded-[8px]  p-[8px]">
+  <h4 class="text-[#000002] grow text-sm lg:text-2xl xl:text-[22px]  text-[16px] font-semibold text-right  pr-2">پرچمداران هوشمند</h4>
+  <a href="#" class="flex items-center">
+    <h4 class=" font-semibold  font-semiBold !text-[#223c78] xl:text-[18px]  text-[14px]">نمایش همه</h4>
+      <i class="fa-solid fa-chevron-left text-[#223c78] mr-3 text-[12px]"
+          ></i>
+  </a>
+ 
+
+
+
+
+</div>
+<div class="pt-[16px] pr-[16px] pb-[32px] xl:border-b-0  ">
+  <div class="swiper mySwiper3 ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] border-r-0 pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px]">
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto "></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 512 گیگابایت رم 12 گیگابایت - Not Active رجیستر شده</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center ">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 319,999,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">12</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">359,999,000</span>
+</div>
+
+      </div>
+
+    
+    </div>
+     <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/2.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> گوشی موبایل اپل مدل iPhone 16 Pro Max ZA/A ظرفیت 256 گیگابایت رم 8 گیگابایت رجیستر شده</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 202,000,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+      </div>
+      
+ 
+  </div>
+    <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/3.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبایل سامسونگ Galaxy S25 Ultra 5G ظرفیت 256 گیگابایت رم 12 گیگابایت - ویتنام</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 129,900,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+      </div>
+      
+</div>
+  <div class="swiper-slide max-w-[320px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/4.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبایل اپل iPhone 16 CH/A دو سیم کارت ظرفیت 256 گیگابایت رم 8 گیگابایت رجیستر شده - Not Active</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">148,999,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/5.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> گوشی موبایل سامسونگ Galaxy S25 Ultra 5G ظرفیت 512 گیگابایت رم 12 گیگابایت - ویتنام</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;"> 160,000,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/6.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبایل ریلمی مدل 12 Plus ظرفیت 512 گیگابایت رم 12 گیگابایت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 24,000,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">12</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">27,000,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/7.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12 گیگابایت - Not Active رجیستر شده</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">245,999,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">2</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">249,999,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/8.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبایل اپل مدل iPhone 16 CH/A ظرفیت 128 گیگابایت رم 8 گیگابایت رجیستر شده</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">103,899,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">2</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">104,999,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/9.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبایل آنر مدل Honor 400 Lite ظرفیت 256 گیگابایت رم 8 گیگابایت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">29,398,400 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+</div>
+
+      </div>
+      </div>
+   
+
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/10.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبايل سامسونگ مدل Galaxy S24 FE ظرفیت 256 گیگابایت رم 8 گیگابایت - ویتنام</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">50,900,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+</div>
+
+</div>
+
+      </div>
+      </div>
+       <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+      </div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+<div class="w-full xl:h-15.5"></div>
+<div class="">
+  <div class="">
+  <div class="xl:px-[32px] px-[16px] flex w-full flex-col gap-[14px] lg:flex-row lg:gap-[26px] pb-[32px] pt-[24px] xl:p-0 max-w-[1600px] mx-auto">
+<a href="#" class="xl:w-1/3 w-full"><img src="./public/img/7/1.webp" class="rounded-[18px]" alt=""></a>
+<a href="#" class="xl:w-1/3 w-full"><img src="./public/img/7/2.webp" class="rounded-[18px]" alt=""></a>
+<a href="#" class="xl:w-1/3 w-full"><img src="./public/img/7/3.webp" class="rounded-[18px]" alt=""></a>
+
+
+
+</div>
+</div>
+</div>
+<div class="xl:w-full xl:h-15.5"></div>
+<div class="border border-[#d3d8e4] xl:border-0 pt-[24px] pb-[32px] px-[16px] xl:px-0 xl:pb-0">
+
+<h2 class=" text-center text-sm font-semibold leading-6 xl:text-[26px] text-[14px]">برترین‌های موبایل</h2>
+<div class="xl:pt-[24px]   flex flex-wrap justify-center gap-7  lg:gap-11 ">
+
+<a href="#">
+
+<img src="./public/img/8/1.webp" alt=""  class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">سامسونگ</p>
+</a>
+<a href="#">
+
+
+
+<img src="./public/img/8/2.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">پوکو</p>
+</a>
+<a href="#">
+
+<img src="./public/img/8/3.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">آیفون</p>
+</a>
+<a href="#">
+
+<img src="./public/img/8/4.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">آنر</p>
+</a>
+<a href="#">
+
+<img src="./public/img/8/5.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">شیائومی</p>
+</a>
+
+
+
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="w-full xl:h-15.5"></div>
+
+<div class="px-[32px] hidden xl:block max-w-[1600px] mx-auto">
+
+  <a href="#" class="w-full "><img src="./public/img/9/1.webp" alt="" class=" rounded-md object-cover lg:rounded-[18px]"></a></div>
+
+<div class="xl:px-[32px] max-w-[1600px] mx-auto border border-[#d3d8e4] pt-[24px] pb-[32px] xl:border-0">
+
+<div class="xl:p-[12px] xl:pb-[24px]  xl:border-[0.7px] xl:border-[#c7cfde] xl:rounded-[20px]">
+<div class="xl:px-[24px] xl:py-[8px] flex content-between  xl:rounded-[8px]  p-[8px]">
+  <h4 class="text-[#000002] grow text-sm lg:text-2xl xl:text-[22px]  text-[16px] font-semibold text-right  pr-2"> لپ‌تاپ‌ها در تکنولایف</h4>
+  <a href="#" class="flex items-center">
+    <h4 class=" font-semibold  font-semiBold !text-[#223c78] xl:text-[18px]  text-[14px]">نمایش همه</h4>
+      <i class="fa-solid fa-chevron-left text-[#223c78] mr-3 text-[12px]"
+          ></i>
+  </a>
+ 
+
+
+
+
+</div>
+<div class="pt-[16px] pr-[16px]   xl:border-b-0  ">
+  <div class="swiper mySwiper3 ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] border-r-0 pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px]">
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto "></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/10/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">لپ تاپ لنوو 15.6 اینچی V15 N4500 8GB 256GB</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center ">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 25,900,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+
+      </div>
+
+    
+    </div>
+     <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/10/2.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> لپ تاپ 15.6 اینچی اچ پی مدل Hp 15-FC0171nia Athlon 7120U 8GB 512GB</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 35,800,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+      </div>
+      
+ 
+  </div>
+    <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/10/3.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">لپ تاپ اپل 15.3 اینچی مدل MacBook Air MRYT3 M3 2024 8GB 512GB LLA</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 108,500,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">16</span>
+
+</span>
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">128,360,000</span>
+</div>
+
+      </div>
+      
+</div>
+  <div class="swiper-slide max-w-[320px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28]  leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/10/4.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">لپ تاپ مایکروسافت 15 اینچی مدل Surface Laptop 4 i7 ۱۱۸۵G۷ 32GB 1TB</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">114,900,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">8</span>
+
+</span>
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">124,000,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/10/5.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> لپ تاپ لنوو 15.6 اینچی مدل IdeaPad Slim 3 i3 1315U 8GB 256GB</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;"> 36,690,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/10/6.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> لپ تاپ اپل 15.3 اینچی مدل MacBook Air MC7 A4 M4 2025 16GB 256GB</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;">126,800,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">4</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">132,000,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/10/7.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">لپ تاپ ایسوس 15.6 اینچی مدل Vivobook 15 F1504VA i3 1315U 20GB 512GB</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">44,100,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+</div>
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/10/8.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">لپ تاپ ایسوس 15.6 اینچی مدل Vivobook 15 X1504VA i3 1315U 8GB 512GB</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">39,352,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide hidden! border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/9.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبایل آنر مدل Honor 400 Lite ظرفیت 256 گیگابایت رم 8 گیگابایت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">29,398,400 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+</div>
+
+      </div>
+      </div>
+   
+
+        <div class="swiper-slide hidden! border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/6/10.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">گوشی موبايل سامسونگ مدل Galaxy S24 FE ظرفیت 256 گیگابایت رم 8 گیگابایت - ویتنام</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">50,900,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+</div>
+
+</div>
+
+      </div>
+      </div>
+       <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+      </div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+
+
+
+<div class="border border-[#d3d8e4] border-b-0 xl:border-0 pt-[24px] pb-[32px] px-[16px] xl:px-0 xl:pb-0">
+
+<h2 class=" text-center text-sm font-semibold leading-6 xl:text-[26px] text-[14px]">برترین‌های لپ‌تاپ </h2>
+<div class="xl:pt-[24px]   flex flex-wrap justify-center gap-7  lg:gap-11 ">
+
+<a href="#">
+
+<img src="./public/img/11/1.webp" alt=""  class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">ایسوس</p>
+</a>
+<a href="#">
+
+
+
+<img src="./public/img/11/2.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">اچ پی</p>
+</a>
+<a href="#">
+
+<img src="./public/img/11/3.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">مک بوک</p>
+</a>
+<a href="#">
+
+<img src="./public/img/11/4.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">لنوو</p>
+</a>
+<a href="#">
+
+<img src="./public/img/11/5.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">ایسر</p>
+</a>
+
+
+
+
+</div>
+</div>
+
+<div class="w-full xl:h-15.5"></div>
+<div class="max-w-[1600px] mx-auto">
+  <div class=" flex w-full flex-col gap-[14px] lg:flex-row  lg:gap-[52px] xl:px-[32px] px-[16px] xl:pb-0 pb-[32px] border-b-1 border-b-[#d3d8e4] xl:border-b-0">
+<a href="#">
+
+<img src="./public/img/12/1.webp" alt="" class=" rounded-md object-cover lg:rounded-[18px]">
+</a>
+<a href="#">
+
+<img src="./public/img/12/2.webp" alt="" class=" rounded-md object-cover lg:rounded-[18px]">
+</a>
+
+</div>
+</div>
+<div class="w-full xl:h-15.5"></div>
+<div class="xl:px-[32px] max-w-[1600px] mx-auto border border-[#d3d8e4] pt-[24px] xl:border-0">
+
+<div class="xl:p-[12px] xl:pb-[24px]  xl:border-[0.7px] xl:border-[#c7cfde] xl:rounded-[20px]">
+<div class="xl:px-[24px] xl:py-[8px] flex content-between  xl:rounded-[8px]  p-[8px]">
+  <h4 class="text-[#000002] grow text-sm lg:text-2xl xl:text-[22px]  text-[16px] font-semibold text-right  pr-2"> ابزارآلات</h4>
+  <a href="#" class="flex items-center">
+    <h4 class=" font-semibold  font-semiBold !text-[#223c78] xl:text-[18px]  text-[14px]">نمایش همه</h4>
+      <i class="fa-solid fa-chevron-left text-[#223c78] mr-3 text-[12px]"
+          ></i>
+  </a>
+ 
+
+
+
+
+</div>
+<div class="pt-[16px] pr-[16px] pb-[32px] xl:border-b-0  ">
+  <div class="swiper mySwiper3 ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] border-r-0 pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px]">
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto "></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">دریل چکشی رونیکس مدل RS-0005 مجموعه 54 عددی</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center ">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 3,747,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+</div>
+      </div>
+
+    
+    </div>
+     <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1d28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">فروش ویژه</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/2.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">شیر آشپزخانه کسری مدل الیزابت کد 01</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 3,905,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">15</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">4,590,000</span>
+</div>
+
+      </div>
+      
+ 
+  </div>
+    <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/3.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">مجموعه 30 عددی پیچ گوشتی شارژی ویوارکس مدل VR1210V-22A</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 1,689,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">4</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">1,744,200</span>
+</div>
+
+      </div>
+      
+</div>
+  <div class="swiper-slide max-w-[320px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">فروش ویژه</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/4.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">پیچ گوشتی پرووان مدل PGS107 بسته 41 عددی</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">799,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">12</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">899,000</span>
+</div>
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/6.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> ست ابزار رونیکس 12 عددی مدل RS-0003</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;"> 2,999,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">43</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">5,175,000</span>
+</div>
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/5.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">چکش تخریب آ ا گ مدل PM 10 E</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 48,000,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">15</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">56,000,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/7.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">چکش تخریب آ ا گ مدل Bh 22 E</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">7,900,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">4</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">8,150,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/8.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">کمپرسور هوا ویوارکس مدل VR 1206-ACT</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">1,999,900</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">23</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">2,578,900</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/9.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">دریل شارژی رونیکس مدل 8670</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">11,750,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">23</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">15,140,200</span>
+</div>
+
+      </div>
+      </div>
+   
+
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/13/10.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">پیچ گوشتی شارژی میجیا مدل MJDDLSD003QW مجموعه 25 عددی</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,860,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+</div>
+
+</div>
+
+      </div>
+      </div>
+       <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+      </div>
+</div>
+
+
+</div>
+
+</div>
+<div class="border border-[#d3d8e4] border-b-0 xl:border-0 pt-[24px] pb-[32px] px-[16px] xl:px-0 xl:pb-0 max-w-[1600px] mx-auto">
+
+<h2 class=" text-center text-sm font-semibold leading-6 xl:text-[26px] text-[14px]">
+برترین‌های هندزفری  </h2>
+<div class="xl:pt-[24px]   flex flex-wrap justify-center gap-7  lg:gap-11 ">
+
+<a href="#">
+
+<img src="./public/img/14/1.webp" alt=""  class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">کیوسی وای</p>
+</a>
+<a href="#">
+
+
+
+<img src="./public/img/14/2.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">هایلو</p>
+</a>
+<a href="#">
+
+<img src="./public/img/14/3.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">شیائومی</p>
+</a>
+<a href="#">
+
+<img src="./public/img/14/4.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">اپل</p>
+</a>
+<a href="#">
+
+<img src="./public/img/14/5.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">سامسونگ</p>
+</a><a href="#">
+
+<img src="./public/img/14/6.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">هوآوی</p>
+</a><a href="#">
+
+<img src="./public/img/14/7.webp" alt="" class="h-[80px] w-[80px] cursor-pointer lg:h-[180px] lg:w-[180px]">
+  <p class="text-xs font-medium leading-4 text-center lg:text-lg">انکر</p>
+</a>
+
+</div>
+</div>
+<div class="w-full xl:h-15.5"></div>
+<div class="max-w-[1464px] mx-auto">
+  <div class=" flex w-full flex-col gap-[14px] lg:flex-row  lg:gap-[52px] xl:px-[32px] px-[16px] xl:pb-0 pb-[32px] border-b-1 border-b-[#d3d8e4] xl:border-b-0">
+<a href="#">
+
+<img src="./public/img/15/1.webp" alt="" class=" rounded-md object-cover lg:rounded-[18px]">
+</a>
+<a href="#">
+
+<img src="./public/img/15/2.webp" alt="" class=" rounded-md object-cover lg:rounded-[18px]">
+</a>
+
+</div>
+</div>
+<div class="w-full xl:h-15.5"></div>
+<div>
+  <div class="xl:px-[32px]">
+  
+<div class="flex items-center xl:rounded-[20px] border-2 border-[#d3d8e4] flex-col xl:flex-row max-w-[1600px] mx-auto">
+<div class="montakhab flex xl:flex-col justify-center items-center gap-[6px] xl:rounded-r-[18px] bg-gradient-to-r from-[#0079b1] to-[#1b3570] xl:px-[42px] xl:pb-[26px] xl:pt-8 w-full xl:w-auto py-[8px]">
+<i class="fa-solid fa-circle-check xl:text-[38px] text-[20px] text-white"></i>
+<p class="min-w-[130px] xl:text-[20px] text-[14px]  font-bold text-white text-center">برندهای منتخب</p>
+
+
+</div>
+
+<div class="swiper  mySwiper4">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/3.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/2.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/1.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/4.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/5.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/6.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/7.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/8.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/9.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/10.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/11.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/12.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/13.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/14.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/15.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+   <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/16.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+     <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/17.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+     <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/18.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+     <div class="swiper-slide"><div class=" my-4 w-[107px] border-l xl:w-auto px-3"><a href="#" class="flex justify-center "><img src="./public/img/16/19.webp" alt="" class="xl:h-[88px]! xl:w-[116px]! w-[107px] "> </a></div></div>
+
+
+    </div>
+       <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+<div class="w-full xl:h-15.5"></div>
+
+
+<div class="xl:px-[32px] max-w-[1600px] mx-auto border border-[#d3d8e4] pt-[24px] xl:border-0">
+
+<div class="xl:p-[12px] xl:pb-[24px]  xl:border-[0.7px] xl:border-[#c7cfde] xl:rounded-[20px]">
+<div class="xl:px-[24px] xl:py-[8px] flex content-between  xl:rounded-[8px]  p-[8px]">
+  <h4 class="text-[#000002] grow text-sm lg:text-2xl xl:text-[22px]  text-[16px] font-semibold text-right  pr-2"> کامپیوتر و تجهیزات</h4>
+  <a href="#" class="flex items-center">
+    <h4 class=" font-semibold  font-semiBold !text-[#223c78] xl:text-[18px]  text-[14px]">نمایش همه</h4>
+      <i class="fa-solid fa-chevron-left text-[#223c78] mr-3 text-[12px]"
+          ></i>
+  </a>
+ 
+
+
+
+
+</div>
+<div class="pt-[16px] pr-[16px] pb-[32px] xl:border-b-0  ">
+  <div class="swiper mySwiper3 ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] border-r-0 pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px]">
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto "></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> هارد اس اس دی اینترنال سامسونگ مدل EVO 870 ظرفیت 1 ترابایت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center ">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 12,698,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+</div>
+      </div>
+
+    
+    </div>
+     <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">فروش ویژه</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/2.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">کیبورد و ماوس بی سیم فنتک مدل WK894</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 2,000,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+
+</div>
+
+
+      </div>
+      
+ 
+  </div>
+    <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/3.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">مانیتور گیمینگ ایسوس مدل VY279HGR سایز 27 اینچ</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 12,850,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">2</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">13,100,000</span>
+</div>
+
+      </div>
+      
+</div>
+  <div class="swiper-slide max-w-[320px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">فروش ویژه</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/4.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">هارد اکسترنال سیلیکون پاور مدل Armor A80 ظرفیت 2 ترابایت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">10,295,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+
+</div>
+
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/5.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">مانیتور ایسوس مدل VY229HF سایز 22 اینچ</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;"> 7,900,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+
+</div>
+
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/6.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">هارد اکسترنال سیلیکون پاور مدل Armor A85 ظرفیت 2 ترابایت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 10,745,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/7.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">پاور کامپیوتر گیم دیاس مدل AURA GP450</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">3,150,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/8.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">هارد اکسترنال وسترن دیجیتال مدل My Passport ظرفیت 1 ترابایت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">6,700,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/9.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماوس بی سیم فنتک مدل W608</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">605,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+
+      </div>
+      </div>
+   
+
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[70%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/17/10.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">کامپیوتر All In One اچ پی 23.8 اینچی مدل 24 CR0316nh-i3 1315U 8GB 512SSD UHD</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">68,500,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">3</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">70,500,000</span>
+</div>
+
+</div>
+
+      </div>
+      </div>
+       <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+      </div>
+</div>
+
+
+</div>
+
+</div>
+
+<div class="w-full xl:h-15.5"></div>
+<div class="max-w-[1600px] mx-auto">
+  <div class="xl:px-[32px] px-[16px] pt-[24px]  xl:pt-0  gap-x-[6px] flex items-center gap-[6px] pb-4">
+<span class="xl:text-[22px] text-sm font-semibold ">لوازم خانگی</span>
+<span class="xl:text-lg text-xs font-normal">خانه و آشپزخانه</span>
+</div>
+</div>
+<div class="max-w-[1600px] mx-auto pb-8 xl:pb-0">
+  <div class="xl:px-[32px]  flex w-full flex-wrap ">
+<div  class="  flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> بخاری برقی</div><img src="./public/img/18/1.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class="  flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> جارو برقی</div><img src="./public/img/18/2.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class="  flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> آبمیوه گیری </div><img src="./public/img/18/3.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class="  flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> کولرگازی </div><img src="./public/img/18/4.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class=" xl:border-l-0 flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white">  چای ساز</div><img src="./public/img/18/5.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class="  flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> اتو </div><img src="./public/img/18/6.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class=" 2xl:border-l-0 flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> پلوپز</div><img src="./public/img/18/7.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class="2xl:border-b-0  flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white">مایکرویو</div><img src="./public/img/18/8.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class="2xl:border-b-0  flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> یخچال</div><img src="./public/img/18/9.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class="2xl:border-b-0 xl:border-l-0 flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> قهوه ساز</div><img src="./public/img/18/10.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class=" xl:border-b-0 flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> چرخ گوشت</div><img src="./public/img/18/11.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+
+<div  class=" xl:border-b-0 flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white">ماشین ظرفشویی</div><img src="./public/img/18/12.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+
+<div  class=" border-b-0 flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class="  absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> سشوار</div><img src="./public/img/18/13.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+<div  class="border-b-0 2xl:border-l-0 flex  items-center justify-center w-1/3 lg:w-1/5 2xl:w-1/7  relative group py-[13px] border border-[#d3d8e4] border-t-0 border-r-0 overflow-hidden " >
+
+<a href="" class=" relative xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] overflow-hidden">
+  <div class=" absolute top-[100%] w-[156px] p-1 duration-400  group-hover:-translate-y-[32px] flex justify-center items-center bg-[#1b3570] rounded-b-xl   font-semibold leading-6 text-white"> ماشین لباسشویی</div><img src="./public/img/18/14.webp" alt="" class="xl:h-[156px] xl:w-[156px] w-[92px] h-[92px] rounded-xl">
+</a>
+
+
+</div>
+
+</div>
+
+
+  </div>
+</div>
+<div class="w-full xl:h-15.5"></div>
+
+<div class="max-w-[1464px] mx-auto">
+  <div class=" flex w-full flex-col gap-[14px] lg:flex-row  lg:gap-[52px] xl:px-[32px] px-[16px] xl:pb-0 pb-[32px] border-b-1 border-b-[#d3d8e4] xl:border-b-0">
+<a href="#">
+
+<img src="./public/img/19/1.webp" alt="" class=" rounded-md  lg:rounded-[18px] lg:w-[780px] lg:h-[240px]  ">
+</a>
+<a href="#">
+
+<img src="./public/img/19/2.webp" alt="" class=" rounded-md  lg:rounded-[18px] lg:w-[780px] lg:h-[240px] ">
+</a>
+
+</div>
+</div>
+<div class="w-full xl:h-15.5"></div>
+
+<div class="">
+
+<div class="max-w-[1600px] mx-auto xl:px-[32px] ">
+
+
+<div class="xl:p-[12px] xl:pb-[24px]  xl:border-[0.7px] xl:border-[#c7cfde] xl:rounded-[20px]">
+<div class="xl:px-[24px] xl:py-[8px] flex content-between  xl:rounded-[8px]  p-[8px]">
+  <h4 class="text-[#000002] grow text-sm lg:text-2xl xl:text-[22px]  text-[16px] font-semibold text-right  pr-2">  لوازم جانبی منتخب </h4>
+  
+ 
+
+
+
+
+</div>
+<div class="pt-[16px] pr-[16px] pb-[32px] xl:border-b-0 border-b-2 border-[#d3d8e4] ">
+  <div class="swiper mySwiper3 ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] border-r-0 pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px]">
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto "></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">پلی استیشن 5 اسلیم دیسک خور اروپا</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center ">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 53,499,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">7</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">56,999,000</span>
+</div>
+
+      </div>
+
+    
+    </div>
+     <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/2.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]"> پاوربانک گرین لاین مدل Boston ظرفیت 10000 میلی آمپر ساعت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 999,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">26</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">1,345,500</span>
+</div>
+
+      </div>
+      
+ 
+  </div>
+    <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/3.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">هندزفری بلوتوثی کیو سی وای مدل T13 ANC 2</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 1,392,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+</div>
+
+
+      </div>
+      
+</div>
+  <div class="swiper-slide max-w-[320px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/4.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">پاوربانک گرین لاین مدل Solar Mate ظرفیت 20000 میلی آمپر ساعت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">3,710,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">27</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">5,020,900</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/5.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">کاور گوشی شیائومی Redmi Note 14 4G زیفرند مدل ژله ای محافظ لنز دار</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;"> 165,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">32</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">240,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/6.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ساعت هوشمند گلوریمی مدل M2 MAX LTD</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 4,719,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">11</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">5,299,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/7.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">پلی استیشن 5 اسلیم دیجیتال اروپا</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">48,899,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">5</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">50,999,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/8.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">پاور بانک باسئوس مدل BLADE2 65W ظرفیت 12000 میلی آمپر ساعت</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">6,590,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/9.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ساعت هوشمند شیائومی مدل Redmi Watch 5 Active</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,929,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">12</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">3,300,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/20/10.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">کاور گوشی سامسونگ Galaxy S25 Ultra کی-زد دوو مدل Ares Sport</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">1,582,050</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">5</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">1,650,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide hidden! border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین اصلاح شیائومی مدل X300 UniBlade</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,465,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">21</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">3,100,000</span>
+</div>
+
+      </div>
+      </div>
+</div>
+
+ <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+
+<div class="w-full xl:h-15.5"></div>
+<div class="">
+
+<div class="max-w-[1600px] mx-auto xl:px-[32px] ">
+
+
+<div class="xl:p-[12px]  xl:border-[0.7px] xl:border-[#c7cfde] xl:rounded-[20px] mt-2">
+<div class="xl:px-[24px]  flex content-between  xl:rounded-[8px]  p-[8px]">
+  <h4 class="text-[#000002] grow text-sm lg:text-2xl xl:text-[22px]  text-[16px] font-semibold text-right  pr-2">  لوازم خانگی تکنولایف  </h4>
+  
+ 
+
+
+
+
+</div>
+<div class="pt-[16px] pr-[16px] pb-[32px] xl:pb-0 xl:border-b-0 border-b-2 border-[#d3d8e4] ">
+  <div class="swiper mySwiper3 ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] border-r-0 pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px]">
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto "></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">بخارگر تفال مدل DT8250</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center ">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 5,700,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">27</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">7,750,000</span>
+</div>
+
+      </div>
+
+    
+    </div>
+     <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/2.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">یخچال فریزر دیپوینت 30 فوت مدل Boss Pro</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 47,000,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">11</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">52,500,000</span>
+</div>
+
+      </div>
+      
+ 
+  </div>
+    <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/3.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">جاروبرقی روسو مدل سوونیر</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 4,613,400</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">40</span>
+
+</span>
+
+</div>
+
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px] hidden xl:inline">تومان</span>
+<span class="line-through text-[#919EBC] xl:text-[16px] text-[14px]" style="font-family: yekannum;">7,689,000</span>
+</div>
+
+
+      </div>
+      
+</div>
+  <div class="swiper-slide max-w-[320px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/4.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">مینی واش جنرال تکنیک مدل SH-MW 2712</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">4,748,100</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">5</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">4,998,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/5.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">یخچال فریزر 30 فوت دیپوینت مدل T7</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;"> 37,000,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">20</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">46,000,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/6.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین لباسشویی کلور 8 کیلویی مدل CWM-BMW 8t </a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium  xl:text-[20px] text-[16px] xl:leading-[28px] leading-[24px]"style="font-family: yekannum;"> 34,200,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">14</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">39,700,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/7.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">بخاری گازی نیک کالا مدل مرجان MN12</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">7,068,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">1</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">7,100,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/8.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین ظرفشویی 13 نفره کلور مدل CDW-H13VS1</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">33,200,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-white leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-white w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/9.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">تلویزیون آیوا QLED سایز 50 اینچ مدل ZQ-C3D</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">36,700,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+
+
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide  border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/21/10.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">یخچال فریزر ساید بای ساید دوو 32 فوت مدل SXi20-10S</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">97,500,000</span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">22</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">124,000,000</span>
+</div>
+
+      </div>
+      </div>
+        <div class="swiper-slide hidden! border-x-1 border-x-[#f0f0f0] pl-[16px]"><div class="flex  flex-col xl:px-[40px]  px-[px] ">
+
+<p class="font-semibold text-[#da1e28] leading-4 text-[12px] lg:text-[15px] lg:!leading-5 line-clamp-1 max-w-[70%]  mb-2 ">تکنوآف</p>
+<div class="h-[3px] rounded-[10px] lg:h-1 bg-red-600 w-[90%] mx-auto text-center"></div>
+<a href="#" class="flex justify-center m-2">
+<img src="./public/img/4/1.webp" alt="" class="xl:h-[186px]! xl:w-[186px]! h-[132px]! w-[132px]!">
+
+</a>
+<a href="#" class="line-clamp-2 h-[48px] leading-[24px] text-xs font-medium -tracking-[0.5px] text-[12px] xl:text-[16px]">ماشین اصلاح شیائومی مدل X300 UniBlade</a>
+<div class="flex justify-between items-center flex-row-reverse xl:pt-[24px] pt-[14px] gap-2">
+<div class="flex items-center">
+  <span class="font-medium d xl:text-[20px] text-[16px] xl:leading-[28px]  leading-[24px]"style="font-family: yekannum;">2,465,000 </span>
+  <span class="text-[12px] mr-[4px]">تومان</span>
+</div>
+<span class="bg-red-600 text-white min-w-6 lg:min-w-7 font-semibold  flex justify-center items-center h-[17px] rounded-[3px] text-[14px] p-1 lg:h-[19px] " >
+  <span class="xl:text-[18px] text-[16px] font-semibold leading-[16px] xl:leading-[20px]">%</span>
+<span style="font-family: yekannum;" class=" text-[14px] font-semibold leading-[16px] xl:leading-[20px]">21</span>
+
+</span>
+
+</div>
+<div class="flex  items-center justify-center xl:justify-start flex-row-reverse"> 
+  <span class="text-[12px] text-[#919EBC] mr-[4px]">تومان</span>
+<span class="line-through text-[#919EBC] text-[16px] " style="font-family: yekannum;">3,100,000</span>
+</div>
+
+      </div>
+      </div>
+</div>
+
+ <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+<div class="w-full xl:h-15.5"></div>
+
+
+<div class="max-w-[1600px] mx-auto xl:px-[32px] hidden! xl:block!">
+<div class="rounded-[24px] border pt-8 border-[#223c78] ">
+
+<div class="flex items-center justify-between pl-2.5 pr-4 lg:px-10.5 pb-4 lg:pb-0">
+  <h2 class="font-semibold leading-6 text-[#000002] lg:text-[22px] lg:leading-8">از و تکنولایف</h2>
+  <div class="flex items-center cursor-pointer">
+    <p class="text-[16px] font-semibold text-[#223c78] ">نمایش بیشتر در </p>
+     <i class="fa-solid fa-chevron-left text-[#223c78] text-[14px]"></i>
+  </div>
+
+  
+</div>
+<div class=" pb-[42px] pr-0 pt-12">
+
+
+ <div class="swiper mySwiper5 ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide pr-[40px]"><a href="#" class="flex flex-col overflow-hidden rounded-b-[8px] ">
+        <img src="./public/img/22/1.webp" alt="" class="xl:h-[140px]! w-[250px]! ">
+      <p class="text-xs font-medium text-gray-800 w-[250px] lg:text-[13px] lg:text-white h-[60px]! rounded-b-[8px] bg-[#333333] -tracking-0.5 py-3 pl-[52px] pr-[14px] leading-[18px] lg:pr-4 text-right">آیفون ۱۷ ؛ هرچه که تا به حال لو رفته!</p>
+      </a></div>
+     <div class="swiper-slide "><a href="#" class="flex flex-col w-[250px]">
+        <img src="./public/img/22/2.webp" alt="" class="xl:h-[140px]! w-[250px]! ">
+      <p class="text-xs font-medium text-gray-800  lg:text-[13px] lg:text-white h-[60px]! rounded-b-[8px] bg-[#333333] -tracking-0.5 py-3 pl-[52px] pr-[14px] leading-[18px] lg:pr-4 text-right">پرطرفدارترین بازی کم حجم برای کامپیوتر شما!</p>
+      </a></div>
+           <div class="swiper-slide "><a href="#" class="flex flex-col w-[250px]">
+        <img src="./public/img/22/3.webp" alt="" class="xl:h-[140px]! w-[250px]! ">
+      <p class="text-xs font-medium text-gray-800  lg:text-[13px] lg:text-white h-[60px]! rounded-b-[8px] bg-[#333333] -tracking-0.5 py-3 pl-[52px] pr-[14px] leading-[18px] lg:pr-4 text-right">طرز تهیه نوشیدنی‌‌های سرد کافی‌ شاپ</p>
+      </a></div>
+           <div class="swiper-slide "><a href="#" class="flex flex-col w-[250px]">
+        <img src="./public/img/22/4.webp" alt="" class="xl:h-[140px]! w-[250px]! ">
+      <p class="text-xs font-medium text-gray-800  lg:text-[13px] lg:text-white h-[60px]! rounded-b-[8px] bg-[#333333] -tracking-0.5 py-3 pl-[52px] pr-[14px] leading-[18px] lg:pr-4 text-right">12 مورد از علت‌های کند شدن لپ تاپ</p>
+      </a></div>
+           <div class="swiper-slide "><a href="#" class="flex flex-col w-[250px]">
+        <img src="./public/img/22/5.webp" alt="" class="xl:h-[140px]! w-[250px]! ">
+      <p class="text-xs font-medium text-gray-800  lg:text-[13px] lg:text-white h-[60px]! rounded-b-[8px] bg-[#333333] -tracking-0.5 py-3 pl-[52px] pr-[14px] leading-[18px] lg:pr-4 text-right">بهترین ساعت هوشمند صفحه گرد ۲۰۲۵</p>
+      </a></div>
+           <div class="swiper-slide "><a href="#" class="flex flex-col w-[250px]">
+        <img src="./public/img/22/6.webp" alt="" class="xl:h-[140px]! w-[250px]! ">
+      <p class="text-xs font-medium text-gray-800  lg:text-[13px] lg:text-white h-[60px]! rounded-b-[8px] bg-[#333333] -tracking-0.5 py-3 pl-[52px] pr-[14px] leading-[18px] lg:pr-4 text-right">پرطرفدارترین اپلیکیشن‌های پیام رسان ایرانی</p>
+      </a></div>
+           <div class="swiper-slide "><a href="#" class="flex flex-col w-[250px]">
+        <img src="./public/img/22/7.webp" alt="" class="xl:h-[140px]! w-[250px]! ">
+      <p class="text-xs font-medium text-gray-800  lg:text-[13px] lg:text-white h-[60px]! rounded-b-[8px] bg-[#333333] -tracking-0.5 py-3 pl-[52px] pr-[14px] leading-[18px] lg:pr-4 text-right">لیست گوشی‌هایی با بهترین دوربین‌‌ سلفی</p>
+      </a></div>
+  
+      </div>
+   <div
+          class="swiper-button-next shadow hidden! xl:block!"
+          style="
+      
+            height: 36px;
+            width: 39px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            color: #23254e00;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-left text-[black] text-[14px] -translate-x-[10px] translate-y-[5px]"
+          ></i>
+        </div>
+        <div
+          class="swiper-button-prev shadow hidden! xl:block!"
+          style="
+          
+            height: 36px;
+            background-color: white;
+            border-radius: 60%;
+            overflow: hidden;
+            display: flex;
+            text-align: center;
+            color: #23254e00;
+            width: 39px;
+          "
+        >
+          <i
+            class="fa-solid fa-chevron-right text-[black] text-[14px] translate-y-[5px]"
+          ></i>
+        </div>
+    </div>
+  </div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+<div class="xl:hidden pt-[24px] px-[16px] pb-[16px]">
+
+  <div class="flex items-center justify-between pl-2.5 pr-4 lg:px-10.5 pb-4 lg:pb-0">از و تکنولایف</div>
+  <div class="px-4 pt-6 flex flex-col gap-4">
+<a href="#" class="">
+  <img src="./public/img/22/1.webp" alt="" class="w-full">
+  <p class="h-[60px]! w-full py-3   pl-[52px] pr-[14px] leading-[18px] text-xs font-medium text-gray-800 bg-[#f0f0f0] rounded-b-[16px] -tracking-0.5">آیفون ۱۷ ؛ هرچه که تا به حال لو رفته!</p>
+</a>
+<a href="#" class="">
+  <img src="./public/img/22/2.webp" alt="" class="w-full">
+  <p class="h-[60px]! w-full py-3 pl-[52px] pr-[14px] leading-[18px] text-xs font-medium text-gray-800 bg-[#f0f0f0] rounded-b-[16px] -tracking-0.5">پرطرفدارترین بازی کم حجم برای کامپیوتر شما!</p>
+</a>
+<a href="#" class="">
+  <img src="./public/img/22/3.webp" alt="" class="w-full">
+  <p class="h-[60px]! w-full py-3 pl-[52px] pr-[14px] leading-[18px] text-xs font-medium text-gray-800 bg-[#f0f0f0] rounded-b-[16px] -tracking-0.5">طرز تهیه نوشیدنی‌‌های سرد کافی‌ شاپ</p>
+</a>
+<a href="#" class="">
+  <img src="./public/img/22/4.webp" alt="" class="w-full">
+  <p class="h-[60px]! w-full py-3 pl-[52px] pr-[14px] leading-[18px] text-xs font-medium text-gray-800 bg-[#f0f0f0] rounded-b-[16px] -tracking-0.5">12 مورد از علت‌های کند شدن لپ تاپ</p>
+</a>
+<a href="#" class="">
+  <img src="./public/img/22/5.webp" alt="" class="w-full">
+  <p class="h-[60px]! w-full py-3 pl-[52px] pr-[14px] leading-[18px] text-xs font-medium text-gray-800 bg-[#f0f0f0] rounded-b-[16px] -tracking-0.5">بهترین ساعت هوشمند صفحه گرد ۲۰۲۵</p>
+</a>
+<a href="#" class="">
+  <img src="./public/img/22/6.webp" alt="" class="w-full">
+  <p class="h-[60px]! w-full py-3 pl-[52px] pr-[14px] leading-[18px] text-xs font-medium text-gray-800 bg-[#f0f0f0] rounded-b-[16px] -tracking-0.5">پرطرفدارترین اپلیکیشن‌های پیام رسان ایرانی</p>
+</a>
+<a href="#" class="">
+  <img src="./public/img/22/7.webp" alt="" class="w-full">
+  <p class="h-[60px]! w-full py-3 pl-[52px] pr-[14px] leading-[18px] text-xs font-medium text-gray-800 bg-[#f0f0f0] rounded-b-[16px] -tracking-0.5">لیست گوشی‌هایی با بهترین دوربین‌‌ سلفی</p>
+</a>
+
+
+  </div>
+</div>
+<div class="w-full xl:h-16"></div>
+<article class="border-t border-gray-300 pt-6  lg:pt-8 max-w-[1600px] xl:px-[32px] text-[16px] font-normal hidden xl:block  mx-auto">
+  <h1 class="mb-[8px]">فروشگاه اینترنتی تکنولایف</h1>
+  <p class="text-[14px] text-[#5f5f5f] leading-[35px]">فروشگاه اینترنتی تکنولایف سال‌ها است که به‌عنوان بزرگترین فروشگاه کالای دیجیتال مشغول فعالیت است. از آن‌جا که خرید اینترنتی همواره موجی از بی‌اعتمادی و شک را با خود به‌همراه داشته، نماد الکترونیکی می‌تواند خیال خیلی از افراد را راحت کند. <strong>تکنولایف </strong> با داشتن نماد اعتماد الکترونیکی و عضویت در سازمان صنفی رایانه‌ای کشور، همچنین عضویت در انجمن صنفی فروشگاه‌های اینترنتی، فضای ایمن برای خرید آنلاین را برای مشتریان خود ایجاد کرده است.
+
+شما می‌توانید خرید کالای دیجیتال مانند <a href="#" class="text-[#14a0de]">خرید لپ تاپ </a>، گوشی موبایل در مدل‌ها و برندهای مختلف، <a href="#" class="text-[#14a0de]">لوازم جانبی موبایل</a> ، هدفون، و کلیه لوازم دیجیتال مدنظر خود را با بهترین قیمت، در فروشگاه تکنولایف به ثبت برسانید.</p>
+
+
+  <h1 class="mt-[20px] mb-[8px]">خرید گوشی از تکنولایف  </h1>
+<p class="text-[14px] text-[#5f5f5f] leading-[35px] line-clamp-2">برای خیلی از کاربران، تکنولایف فروشگاه اینترنتی موبایل محسوب می‌شود. این بدان خاطر است که شما می‌توانید انواع گوشی موبایل مورد نظر خود، از جمله گوشی شیائومی ، گوشی سامسونگ، گوشی هواوی، آیفون و دیگر برندها را در تکنولایف به‌راحتی پیدا و با قیمتی مناسب، خریداری کنید. خرید گوشی موبایل، آن‌هم اینترنتی، می‌تواند کاری دشوار باشد؛ اما شما می‌توانید با اطمینان کامل، گوشی موبایل مد نظرتان را از فروشگاه اینترنتی موبایل تکنولایف استعلام قیمت کرده و خریداری کنید</p>
+<div class="my-4">
+<a href="#" class="text-[#223c78]  text-sm font-medium lg:text-[18px]">نمایش بیشتر</a>
+<i class="fa-solid fa-chevron-down text-[#223c78] cursor-pointer"></i>
+
+</div>
+</article>
+<article class="xl:hidden border-t border-gray-300 pt-6  lg:pt-8 ">
+<h1 class="mb-[16px] px-[16px]">فروشگاه اینترنتی تکنولایف</h1>
+<p class="px-[16px] text-[14px] leading-[32px] text-[#5f5f5f] text-justify line-clamp-3">فروشگاه اینترنتی تکنولایف سال‌ها است که به‌عنوان بزرگترین فروشگاه کالای دیجیتال مشغول فعالیت است. از آن‌جا که خرید اینترنتی همواره موجی از بی‌اعتمادی و شک را با خود به‌همراه داشته، نماد الکترونیکی می‌تواند خیال خیلی از افراد را راحت کند. تکنولایف با داشتن نماد اعتماد الکترونیکی و عضویت در سازمان صنفی رایانه‌ای کشور، همچنین عضویت در انجمن صنفی فروشگاه‌های اینترنتی، فضای ایمن برای خرید آنلاین را برای مشتریان خود ایجاد کرده است. شما می‌توانید خرید کالای دیجیتال مانند خرید لپ تاپ ، گوشی موبایل در مدل‌ها و برندهای مختلف، لوازم جانبی موبایل ، هدفون، و کلیه لوازم دیجیتال مدنظر خود را با بهترین قیمت، در فروشگاه تکنولایف به ثبت برسانید.
+
+</p>
+<div class="my-4 px-[16px]">
+<a href="#" class="text-[#223c78]  text-sm font-medium lg:text-[18px]">نمایش بیشتر</a>
+<i class="fa-solid fa-chevron-down text-sm text-[#223c78] cursor-pointer"></i>
+
+</div>
+</article>
+<div class="lg:m-4 m-2 px-[16px] mt-15.5 overflow-hidden rounded-[30px] bg-gradient-to-r from-[#0079b1] to-[#1b3570] xl:px-[46px]">
+  <div class="max-w-[1600px] mx-auto  flex w-full justify-between  lg:pt-[72px] lg:pb-[32px] py-[16px]">
+    <img src="./public/img/footer/static_white_logo_techno.svg" alt="" class="lg:h-[66px] lg:w-[174px] w-[83px] h-[35px]">
+    <a href="#" target="_top" class=" relative flex items-center justify-center h-[3.25rem  p-4  text-white cursor-pointer flex h-9  gap-2  rounded-lg bg-white md:h-12 px-[22px] md:px-8 ">
+<i class="fa-solid fa-chevron-up text-black text-[13px]"></i>
+<span class="select-none pt-1 lg:font-medium text-[#253a56] text-sm leading-[18px] ">بازگشت به بالا</span>
+
+    </a>
+  </div>
+<div class="lg:hidden">
+  <div class="flex w-full border-t !border-white-20 pt-4 text-white lg:hidden "></div>
+  <div class="flex w-full cursor-pointer items-center justify-between px-4 py-[10px] lg:hidden">
+
+  <strong class="text-xs font-semiBold  text-gray-700  !text-sm leading-[22px] text-white font-medium">دسترسی سریع</strong>
+<i class="fa-solid fa-chevron-down text-white text-[10px] mr-auto "></i>
+
+
+  </div>
+    <div class="flex w-full cursor-pointer items-center justify-between px-4 py-[10px] lg:hidden">
+
+  <strong class="text-xs font-semiBold  text-gray-700  !text-sm leading-[22px] text-white font-medium">پرفروش ترین محصولات</strong>
+<i class="fa-solid fa-chevron-down text-white text-[10px] mr-auto "></i>
+
+
+  </div>
+    <div class="flex w-full cursor-pointer items-center justify-between px-4 py-[10px] lg:hidden">
+
+  <strong class="text-xs font-semiBold  text-gray-700  !text-sm leading-[22px] text-white font-medium">درباره ما</strong>
+<i class="fa-solid fa-chevron-down text-white text-[10px] mr-auto "></i>
+
+
+  </div>
+    <div class="flex w-full cursor-pointer items-center justify-between px-4 py-[10px] lg:hidden">
+
+  <strong class="text-xs font-semiBold  text-gray-700  !text-sm leading-[22px] text-white font-medium">پیش از خرید</strong>
+<i class="fa-solid fa-chevron-down text-white text-[10px] mr-auto "></i>
+
+
+  </div>
+    <div class="flex w-full cursor-pointer items-center justify-between px-4 py-[10px] lg:hidden">
+
+  <strong class="text-xs font-semiBold  text-gray-700  !text-sm leading-[22px] text-white font-medium">پس از خرید</strong>
+<i class="fa-solid fa-chevron-down text-white text-[10px] mr-auto "></i>
+
+
+  </div>
+    <div class="flex w-full cursor-pointer items-center justify-between px-4 py-[10px] pb-[40px] lg:hidden">
+
+  <strong class="text-xs font-semiBold  text-gray-700  !text-sm leading-[22px] text-white font-medium">قوانین و مقررات</strong>
+<i class="fa-solid fa-chevron-down text-white text-[10px] mr-auto "></i>
+
+
+  </div>
+
+
+<div class="flex flex-col border-y !border-white py-4 ">
+  <div class="mb-4 flex justify-start items-center "><p class="mb-6 lg:mb-[22px] text-base leading-6 lg:leading-7 lg:text-lg font-medium text-white">ارتباط با ما</p></div>
+  <div class="mb-4 flex justify-start items-center ">
+    <p class="text-right text-sm font-medium leading-7 text-white lg:text-lg ml-3">شبکه های اجتماعی</p>
+<div class="flex items-center gap-4 lg:gap-8">
+  <a href="#">
+  <i class="fa-brands fa-instagram text-[16px] text-white hover:text-purple-700 duration-300"></i>
+
+  </a>
+    <a href="#">
+  <i class="fa-brands fa-x-twitter text-[16px] text-white hover:text-black duration-300"></i>
+
+    </a>
+    <a href="#">
+
+  <i class="fa-brands fa-telegram text-[16px] text-white hover:text-sky-500 duration-300"></i>
+</a>
+    <a href="#">
+
+  <i class="fa-brands fa-youtube text-[16px] text-white hover:text-red-600  duration-300"></i>
+  </a>
+</div>
+  </div>
+  <div class="mb-4 flex justify-start items-center! text-[14px] "><div class="flex items-center flex-wrap gap-3 ">
+  <p class="text-white text-sm font-medium leading-[22px] text-[14px]">تلفن :</p>
+  <a href="tel:02158424000"  class=" text-white" style="font-family:yekannum;">021-58424000</a>
+  <span class="text-white">-</span>
+  <a href="tel:02191077500"  class="text-white" style="font-family:yekannum;">021-91077500</a>
+</div></div>
+  <div class="mb-4 flex justify-start items-center "><div class="flex items-center flex-wrap gap-3 mb-4">
+  <p class="text-white text-sm font-medium leading-[22px]">ایمیل :</p>
+<a href="mailto:info@technolife.com"  class="dir-ltr text-white">info@technolife.com</a>
+</div></div>
+</div>
+
+<div class="flex flex-col gap-4.5 border-y border-white py-4">
+  <p class="text-right  leading-6 font-medium text-white  ">دانلود اپلیکیشن ما از:</p>
+        <div class="flex flex-wrap gap-2 lg:gap-4 justify-center">
+        <a href="#" class="flex h-12 min-w-[148px] max-w-1/2 lg:w-[88px] bg-white rounded p-2 items-center justify-center "><img src="./public/img/footer/footerBazzar.webp" alt=""></a>
+         <a href="#" class="flex h-12 min-w-[148px] max-w-1/2 lg:w-[88px] bg-white rounded p-2 items-center justify-center "><img src="./public/img/footer/footerSibapp.webp" alt=""></a>
+          <a href="#" class="flex h-12 min-w-[148px] max-w-1/2 lg:w-[88px] bg-white rounded p-2 items-center justify-center "><img src="./public/img/footer/footerMayket.webp" alt=""></a>
+      </div>
+</div>
+ <div class="flex gap-x-4 gap-y-9 py-6.5 flex-wrap justify-between border-y border-white">
+      <a href="#"><img src="./public/img/footer/1.webp" alt="" class="w-[120px] h-[38px]"></a>
+      <a href="#"><img src="./public/img/footer/2.webp" alt="" class="w-[120px] h-[38px]"></a>
+      <a href="#"><img src="./public/img/footer/3.webp" alt="" class="w-[120px] h-[38px]"></a>
+    </div>
+ <div class="flex gap-0.5 pt-6 justify-center">
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] w-[62px] h-[62px]"><img src="./public/img/footer/logo.png" alt="" class="h-[60px] w-[60px] p-1.5"></a>
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] w-[62px] h-[62px]"><img src="./public/img/footer/5.svg" alt="" class="h-[60px] w-[60px] p-1.5"></a>
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] w-[62px] h-[62px]"><img src="./public/img/footer/6.webp" alt="" class="h-[60px] w-[60px] p-1.5"></a>
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] w-[62px] h-[62px]"><img src="./public/img/footer/7.webp" alt="" class="h-[60px] w-[60px] p-1.5"></a>
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] w-[62px] h-[62px]"><img src="./public/img/footer/8.webp" alt="" class="h-[60px] w-[60px] p-1.5"></a>
+
+    </div>
+
+
+
+
+
+</div>
+  <!-- mobile up -->
+  <div class="max-w-[1600px] mx-auto  w-full pt-8 xl:pb-[42px] 2xl:pt-12.5 border-t border-b border-t-[#f0f0f0] border-b-[#f0f0f0] lg:flex flex-wrap justify-center gap-4 hidden">
+<div class="lg:w-[32%] 2xl:w-[15%]! flex flex-col lg:pt-[48px]">
+  <strong class="text-xl font-semibold leading-8 text-white">دسترسی سریع</strong>
+  <div class="pt-[24px] lg:block hidden ">
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">بلاگ</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">خرید گوشی</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">گوشی سامسونگ</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">گوشی آیفون</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">گوشی شیائومی</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">گوشی پوکو</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">مقایسه گوشی</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">خرید لپ تاپ</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">هندزفری بلوتوثی</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">لپ تاپ ایسوس</a>
+  </div>
+</div>
+<div class="w-[32%] 2xl:w-[15%]! flex flex-col pt-[48px]">
+  <strong class="text-xl font-semibold leading-8 text-white">پرفروش ترین محصولات</strong>
+  <div class="pt-[24px] lg:block hidden">
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">گیمینگ</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200" >آیفون ۱۷ </a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">آیفون ۱۷ پرومکس</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">گوشی ۱۴t</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">گوشی a۱۷</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">گوشی s۲۵ سامسونگ</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">ساعت هوشمند</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">مانیتور</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">هارد اکسترنال</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">لوازم خانگی</a>
+  </div>
+</div>
+<div class="w-[32%] 2xl:w-[15%]! flex flex-col pt-[48px]">
+  <strong class="text-xl font-semibold leading-8 text-white">درباره ما</strong>
+  <div class="pt-[24px] lg:block hidden">
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">تکنولایف در یک نگاه</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">اهداف و تعهدهای ما</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">سوالات متداول</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">فروشگاه های حضوری</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">تماس با ما</a>
+  </div>
+</div>
+<div class="w-[32%] 2xl:w-[15%]! flex flex-col pt-[48px]">
+  <strong class="text-xl font-semibold leading-8 text-white">پیش از خرید</strong>
+  <div class="pt-[24px] lg:block hidden">
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">راهنمای خرید اقساطی</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">خرید سازمانی</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">راهنمای خرید از تکنولایف</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">روش های خرید از تکنولایف</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">ضمانت هفت‌روزه تکنولایف</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">شیوه‌ها و هزینه ارسال</a>
+  </div>
+</div>
+<div class="w-[32%] 2xl:w-[15%]! flex flex-col pt-[48px]">
+  <strong class="text-xl font-semibold leading-8 text-white">پس از خرید</strong>
+  <div class="pt-[24px] lg:block hidden">
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">تضمین رجیستری</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">رویه‌های بازگرداندن کالا</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">سوالات متداول رجیستری</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">رهگیری سفارش‌ها</a>
+    
+  </div>
+</div>
+<div class="w-[32%] 2xl:w-[15%]! flex flex-col pt-[48px]">
+  <strong class="text-xl font-semibold leading-8 text-white">قوانین و مقررات</strong>
+  <div class="pt-[24px]">
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">قوانین و مقررات</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">حریم خصوصی کاربران</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">از زبان مشتریان تکنولایف</a>
+    <a href="#" class="pt-[12px] block  text-sm font-medium leading-5.5 !text-gray-200">چرا تکنولایف؟</a>
+  </div>
+</div>
+  </div>
+  <div class="pt-[54px] lg:flex hidden justify-center max-w-[1600px] mx-auto border-t border-b border-white pb-10.5">
+    <div class="flex flex-col w-[32%]">
+      <p class="mb-6 lg:mb-[22px]  leading-6 lg:leading-7 lg:text-lg font-medium text-white">ارتباط با ما</p>
+<div class="flex items-center flex-wrap gap-3 mb-4">
+  <p class="text-white text-sm font-medium leading-[22px]">تلفن :</p>
+  <a href="tel:02158424000"  class=" text-white" style="font-family:yekannum;">021-58424000</a>
+  <span class="text-white">-</span>
+  <a href="tel:02191077500"  class="text-white" style="font-family:yekannum;">021-91077500</a>
+</div>
+<div class="flex items-center flex-wrap gap-3 mb-4">
+  <p class="text-white text-sm font-medium leading-[22px]">ایمیل :</p>
+<a href="mailto:info@technolife.com"  class="dir-ltr text-white">info@technolife.com</a>
+</div>
+    </div>
+    <div class="flex flex-col w-[32%] flex-wrap gap-[12px]">
+<p class="text-right text-sm font-medium leading-7 text-white lg:text-lg ">شبکه های اجتماعی</p>
+<div class="flex items-center gap-4 lg:gap-8">
+  <a href="#">
+  <i class="fa-brands fa-instagram text-[22px] text-white hover:text-purple-700 duration-300"></i>
+
+  </a>
+    <a href="#">
+  <i class="fa-brands fa-x-twitter text-[22px] text-white hover:text-black duration-300"></i>
+
+    </a>
+    <a href="#">
+
+  <i class="fa-brands fa-telegram text-[22px] text-white hover:text-sky-500 duration-300"></i>
+</a>
+    <a href="#">
+
+  <i class="fa-brands fa-youtube text-[22px] text-white hover:text-red-600  duration-300"></i>
+  </a>
+</div>
+    </div>
+    <div class="flex flex-col w-[32%] flex-wrap gap-[12px] py-[16px]">
+      <p class="text-right leading-6 font-medium lg:leading-7 text-white lg:text-lg ">دانلود اپلیکیشن ما از:</p>
+      <div class="flex flex-wrap gap-2 lg:gap-4">
+        <a href="#" class="flex h-12 min-w-[148px] max-w-1/2 lg:w-[88px] bg-white rounded p-2 items-center justify-center "><img src="./public/img/footer/footerBazzar.webp" alt=""></a>
+         <a href="#" class="flex h-12 min-w-[148px] max-w-1/2 lg:w-[88px] bg-white rounded p-2 items-center justify-center "><img src="./public/img/footer/footerSibapp.webp" alt=""></a>
+          <a href="#" class="flex h-12 min-w-[148px] max-w-1/2 lg:w-[88px] bg-white rounded p-2 items-center justify-center "><img src="./public/img/footer/footerMayket.webp" alt=""></a>
+      </div>
+    </div>
+  </div>
+  <div class=" gap-4 mx-auto max-w-[1600px] pt-6.5 md:gap-y-[54px] justify-between hidden lg:flex">
+    <div class="flex gap-x-4 lg:gap-x-8 2xl:gap-x-11 gap-y-9 lg:gap-y-4">
+      <a href="#"><img src="./public/img/footer/1.webp" alt="" class="w-[120px] h-[38px]"></a>
+      <a href="#"><img src="./public/img/footer/2.webp" alt="" class="w-[120px] h-[38px]"></a>
+      <a href="#"><img src="./public/img/footer/3.webp" alt="" class="w-[120px] h-[38px]"></a>
+    </div>
+    <div class="flex gap-1">
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] p-2"><img src="./public/img/footer/logo.png" alt="" class="h-[60px] w-[60px]"></a>
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] p-2"><img src="./public/img/footer/5.svg" alt="" class="h-[60px] w-[60px]"></a>
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] p-2"><img src="./public/img/footer/6.webp" alt="" class="h-[60px] w-[60px]"></a>
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] p-2"><img src="./public/img/footer/7.webp" alt="" class="h-[60px] w-[60px]"></a>
+      <a href="#" class="flex justify-center items-center bg-white rounded-[6px] p-2"><img src="./public/img/footer/8.webp" alt="" class="h-[60px] w-[60px]"></a>
+
+    </div>
+  </div>
+  <div class="flex w-full flex-col items-center justify-center lg:flex-row lg:mt-14 py-7.5 mx-auto max-w-[1600px]">
+    <span class="mb-1.5 text-xs lg:text-[16px] font-semibold leading-4 text-white lg:mb-0 lg:ml-3 lg:leading-5">۱۴۰۴-۱۳۹۱</span>
+    <p class="text-xs  leading-4 text-white lg:text-[14px] lg:font-medium lg:leading-5">تمامی حقوق مادی و معنوی این سایت متعلق به تکنولایف می‌باشد.</p>
+  </div>
+</div>
+<div class="basecontainer z-999 px-[16px] xl:hidden  sticky bottom-0 bg-white border-t-3  border-[#f0f0f0]">
+  <div class="flex items-center justify-center ">
+    <div class="pb-[16px] pt-[12px] flex flex-grow-1 gap-[12px] flex-col items-center bg-gray-100 justify-center  border-t-3 border-blue-800">
+<i class="fa-solid fa-house-chimney text-[24px] text-[#8d8d8d] "></i>
+      <span class="text-[#223c78] text-[12px]">خانه</span>
+    </div>
+      <div class="pb-[16px] pt-[12px] flex flex-grow-1 gap-[12px] flex-col items-center justify-center">
+<i class="fa-solid fa-list text-[24px] text-[#8d8d8d]"></i>
+      <span class="text-[#223c78] text-[12px]">دسته بندی</span>
+    </div>
+      <div class="pb-[16px] pt-[12px] flex flex-grow-1 gap-[12px] flex-col items-center justify-center">
+<i class="fa-solid fa-cart-shopping text-[24px] text-[#8d8d8d]"></i>
+      <span class="text-[#223c78] text-[12px]">سبد خرید</span>
+    </div>
+      <div class="pb-[16px] pt-[12px] flex flex-grow-1 gap-[12px] flex-col items-center justify-center">
+<i class="fa-regular fa-square text-[24px] text-[#8d8d8d]"></i>
+      <span class="text-[#223c78] text-[12px]">بلاگ</span>
+    </div>
+      <div class="pb-[16px] pt-[12px] flex flex-grow-1 gap-[12px] flex-col items-center justify-center">
+<i class="fa-solid fa-user text-[24px]  text-[#8d8d8d]"></i>
+      <span class="text-[#223c78] text-[12px]">حساب</span>
+    </div>
+  </div>
+</div>
+    <!-- scriptssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 40,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 3.7,
+        breakpoints: {
+          640: {
+            slidesPerView: 5.7,
+          },
+          1024: {
+            slidesPerView: 6.7,
+          },
+        },
+ navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper3", {
+        slidesPerView:2, 
+        breakpoints:{
+            640: {
+            slidesPerView: 3.5,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+        
+        },
+ navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        spaceBetween: 0,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+    var swiper = new Swiper(".mySwiper4", {
+      slidesPerView: 3.5,
+      spaceBetween: 30,
+       breakpoints: {
+          640: {
+            slidesPerView: 4,
+          },
+          1024: {
+            slidesPerView: 6,
+          },
+        },
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+       navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+    });
+  </script>
+
+
+    <script>
+    var swiper = new Swiper(".mySwiper5", {
+      slidesPerView: 1,
+      spaceBetween: 40,
+       breakpoints: {
+   
+          1024: {
+            slidesPerView: 4,
+          },
+        },
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+       navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+    });
+  </script>
+
+  </body>
+</html>
