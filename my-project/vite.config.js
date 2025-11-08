@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base:technolife-firstpage,
+  base:'/technolife-firstpage/',
 
   plugins: [
     tailwindcss(),
